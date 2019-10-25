@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 
 	<name>devops</name>
-	<description>DevOps By Keshav Kummari</description>
+	<description>DevOps By Sunil Chaudhari</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
