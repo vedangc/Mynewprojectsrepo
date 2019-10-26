@@ -25,20 +25,7 @@
 		<jacoco.version>0.7.9</jacoco.version>
 	</properties>
 
-	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>releases</name>
-			<url>http://54.80.153.194:8081/artifactory/libs-release-local/</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://54.80.153.194:8081/artifactory/libs-snapshot-local/</url>
-		</snapshotRepository>
-	</distributionManagement>
-
-
+	
 	<scm>
 		<connection>scm:git:git@github.com:keshavkummari/eduJavaProject.git</connection>
 		<developerConnection>scm:git:git@github.com:keshavkummari/eduJavaProject.git</developerConnection>
