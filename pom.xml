@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 
 	<name>devops</name>
-	<description>DevOps By Sunil Chaudhari</description>
+	<description>DevOps By Keshav Kummari</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -25,27 +25,27 @@
 		<jacoco.version>0.7.9</jacoco.version>
 	</properties>
 
-	
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>releases</name>
+			<url>http://54.80.153.194:8081/artifactory/libs-release-local/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot</id>
+			<name>snapshots</name>
+			<url>http://54.80.153.194:8081/artifactory/libs-snapshot-local/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+
 	<scm>
 		<connection>scm:git:git@github.com:keshavkummari/eduJavaProject.git</connection>
 		<developerConnection>scm:git:git@github.com:keshavkummari/eduJavaProject.git</developerConnection>
 		<url>git@github.com:keshavkummari/eduJavaProject.git</url>
 		<tag>HEAD</tag>
 	</scm>
-        <distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>releases</name>
-			<url>http://40.114.67.151:8081/artifactory/libs-release-local/</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://40.114.67.151:8081/artifactory/libs-snapshot-local/</url>
-		</snapshotRepository>
-	</distributionManagement>
 
-	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
