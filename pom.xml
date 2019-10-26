@@ -32,7 +32,27 @@
 		<url>git@github.com:keshavkummari/eduJavaProject.git</url>
 		<tag>HEAD</tag>
 	</scm>
+        <distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>releases</name>
+			<url>http://54.80.153.194:8081/artifactory/libs-release-local/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot</id>
+			<name>snapshots</name>
+			<url>http://54.80.153.194:8081/artifactory/libs-snapshot-local/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
+	
+	
+	
+	
+	
+	
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
